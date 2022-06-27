@@ -1,0 +1,523 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Smooch+Sans:wght@300;600;800&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: auto;
+    line-height: 1.4em;
+    color: auto;
+    overflow-y: scroll; 
+    text-decoration: none;
+    font-family: "Smooch Sans", sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    transition: all 0.2s linear;
+}
+
+.labels{
+    font-size: 2rem;
+    line-height: 3.5rem;
+    height: fit-content;
+    color: #583e2e;
+    margin: 3rem;
+    margin-top: 6rem;
+}
+
+.inputMensaje{
+    min-height: 10rem;
+}
+
+.btnEnviar{
+    margin: 3rem;
+    width: 10rem;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 3rem;
+    background-color: rgb(31, 107, 31);
+    color: #E8E0C5;
+    height: 5rem;
+    border-radius: 5%;
+    border-width: 1rem;
+    border-color: #583e2e;
+}
+
+.inputContacto{
+    background-color: #ba8b72;
+    color: #291d16;
+    font-size: 2rem;
+    width: 70%;
+    justify-content: center;
+    font-family: "Quicksand", sans-serif;
+    height: 4rem;
+    overflow-y: scroll;
+    text-align: center;
+    font-weight: 400;
+}
+
+.nosotros{
+    font-size: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    justify-content: center;
+    font-family: "Quicksand", sans-serif;
+    height: fit-content;
+    margin-bottom: 3rem;
+    overflow-y: visible;
+    line-height: 3.5rem;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+*::selection {
+    background: #6B011B;
+    color: #fff;
+}
+
+.header__logo {
+    background: #583e2e;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#txtImg{
+    background-color: #f9e8df;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #f1e7c1;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #E8E0C5;
+    width: 100%;
+}
+
+.content-wrapper {
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+    color: #6B011B;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 400;
+}
+
+#btnCargaFinalizada {
+    color: rgb(14, 117, 14);
+    padding: 4rem;
+}
+
+.form-signin {
+    max-width: 25rem;
+    margin: auto;
+}
+
+.slider.round {
+    border-radius: 80px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+section {
+    text-align: center;
+}
+
+.titulosIntermedios{
+    margin: 2rem;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #291d16;
+}
+
+.sticky{
+    position: static;
+}
+
+#nav {
+    background-color: #654533;
+    text-transform: uppercase;
+    font-size: 2rem;
+    position: sticky;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.navUlLiA {
+    list-style: none;
+    padding: 1rem;
+    font-size: 0;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+}
+
+.navUlLiA {
+    color: white;
+    font-size: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+a:hover {
+    font-weight: 900;
+    color: #eed35b;
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+}
+
+.hamburguesa {
+    border-color: white;
+}
+
+#imgLogo {
+    width: 5rem;
+    padding-top: 0.5rem;
+}
+
+#header{
+    width: 100%;
+    position: relative; 
+}
+
+footer {
+    background-color: #654533;
+    text-align: justify;
+    position: sticky;
+    padding-top: 2rem; 
+}
+
+label, p{
+    color: #291d16;
+    line-height: 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center; 
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+#txtJs{
+    color: #291d16;
+    line-height: 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center; 
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+#imgHeader{
+    display: flex;
+}
+
+.completar{
+    min-width: 300px; 
+    font-family: 'Quicksand', sans-serif;
+    color: #f9e8df;
+    background-color: #583e2e;
+    min-height: 2rem;
+    border-color: rgb(61, 110, 61);
+    border-width: 2px;
+    margin: 2rem;
+}
+
+::placeholder{
+    color: #f9e8df;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.btn-carrito-eliminar {
+    background: red;
+    color: #fff;
+    padding: 0.7rem;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+#vaciar-carrito,
+#comprar-carrito {
+    margin: 2rem;
+    background: green;
+    color: #fff;
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+#vaciar-carrito {
+    margin: 2rem;
+    background: red;
+    color: #fff;
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+  
+.filter {
+    visibility: hidden;
+    opacity: 0;
+    order: 1;
+}
+
+.vaciar-carrito {
+    text-align: center;
+    margin-top: 1rem;
+    background: #3c2b20;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-carrito {
+    height: 10rem;
+}
+
+.cantidad-tabla {
+    text-align: center;
+}
+
+.btn-tabla {
+    text-align: center;
+}
+
+.btn-carrito-agregar {
+    background: green;
+    color: #fff;
+    padding: 0.7rem;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+
+.carrito a {
+    margin: 1rem;
+    font-size: 3rem;
+    color: black;
+    padding-left: 1rem;
+}
+
+  
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.home img {
+    object-fit: cover;
+}
+
+.home .content {
+    position: absolute;
+}
+
+.home .content span {
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    display: flex;
+}
+
+.home .content a {
+    font-size: 5rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    background: #583e2e;
+    color: #fff;
+    padding: 0.8rem 3rem;
+    font-size: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.home .content h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.home .content a:hover {
+    background: black;
+}
+
+#table{
+    display: hidden;
+    width: fit-content;
+}
+
+#table:hover{
+    visibility: visible;
+}
+
+.productos-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem 9%;
+}
+
+.productos-ind {
+    flex: 1 1 30rem;
+    text-align: center;
+    padding: 2rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.productos-ind img {
+    height: 20rem;
+}
+
+.productos-ind h3 {
+    color: black;
+    font-size: 2.5rem;
+}
+
+.estrellas {
+    padding: 1rem 0.1rem;
+    font-size: 1.7rem;
+    color: #583e2e;
+}
+
+.precios {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #333;
+    padding: 0.5rem;
+}
+
+.cantidad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.cantidad span {
+    padding: 0 0.7rem;
+    font-size: 1.7rem;
+}
+
+.cantidad input {
+    border: 0.1rem solid rgba(0, 0, 0, 0.3);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: black;
+    padding: 0.5rem;
+    width: 5rem;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.productos-ind button {
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    background: #583e2e;
+    color: #fff;
+    padding: 0.8rem 3rem;
+    font-size: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    outline: 2px solid #583e2e;
+    outline-offset: 2px;
+}
+  
+.productos-ind button:hover {
+    background-color: black;
+}
+
+#titulo {
+    text-align: center;
+    font-size: 8rem;
+    font-weight: 700;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.titulo span {
+    color: #583e2e;
+}
+  
+.carrito {
+    position: relative;
+}
+
+.carrito-contador {
+    color: #f9e8df;
+}
+
+.header__nav:hover .table {
+    font-size: 2rem;
+    color: #E8E0C5;
+    background-color: #583e2e;
+    width: fit-content;
+}
+
+.navbar{
+    max-height: 10rem;
+}
+
+.header__nav {
+    background: #654533;
+    display: flex;
+    align-items: center;
+    color: #E8E0C5;
+    justify-content: space-between;
+    font-size: 2rem;
+    position: static;
+    overflow-y: scroll;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
